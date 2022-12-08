@@ -1,4 +1,4 @@
-# A-demo-of-EV-charging-network-based-on-SUMO-python-traci-
+# A demo of EV charging network (based on SUMO with python-traci)
 
 /input file:
 h.net.xml  (network topology)
