@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-12-08 15:17:37 by Eclipse SUMO netedit Version 1.14.1
+-->
+
+<routes>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <vType id="ElectricBus" accel="1.0" decel="1.0" length="12" maxSpeed="100.0" sigma="0.0" minGap="2.5" color="1,1,1">
+        <param key="has.battery.device" value="true"/>
+        <param key="maximumBatteryCapacity" value="2000"/>
+        <param key="maximumPower" value="1000"/>
+        <param key="vehicleMass" value="10000"/>
+        <param key="frontSurfaceArea" value="5"/>
+        <param key="airDragCoefficient" value="0.6"/>
+        <param key="internalMomentOfInertia" value="0.01"/>
+        <param key="radialDragCoefficient" value="0.5"/>
+        <param key="rollDragCoefficient" value="0.01"/>
+        <param key="constantPowerIntake" value="100"/>
+        <param key="propulsionEfficiency" value="0.9"/>
+        <param key="recuperationEfficiency" value="0.9"/>
+        <param key="stoppingTreshold" value="0.1"/>
+        <param key="emissionClass" value="Energy"/>
+    </vType>
+    <trip id="t_0" type="ElectricBus" depart="0.00" from="E0" to="E3">
+        <param key="actualBatteryCapacity" value="500"/>
+    </trip>
+
+    <vehicle id="v0" depart="0" type="ElectricBus">
+        <route edges="E0 E2 E3"/>
+        <param key="actualBatteryCapacity" value="2000"/>
+    </vehicle>
+</routes>

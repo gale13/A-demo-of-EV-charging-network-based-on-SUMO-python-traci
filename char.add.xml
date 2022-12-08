@@ -1,0 +1,3 @@
+<additional>
+    <chargingStation chargeDelay="2" chargeInTransit="0" power="200000" efficiency="0.95" endPos="25" id="char1" lane="E4_0" startPos="10"/>
+</additional>
